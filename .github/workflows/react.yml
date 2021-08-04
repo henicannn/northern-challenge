@@ -28,6 +28,5 @@ jobs:
     - run: yarn install
     - run: yarn run build
     - name: Deploy to Github Pages
-        uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./build
