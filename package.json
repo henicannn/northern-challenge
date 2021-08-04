@@ -1,7 +1,6 @@
 {
   "name": "northern-challenge",
   "version": "0.1.0",
-  "homepage": "http://henicannn.github.io/northern-challenge",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -20,8 +19,6 @@
     "wouter": "^2.7.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
