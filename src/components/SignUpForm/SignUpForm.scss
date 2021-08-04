@@ -1,0 +1,82 @@
+.SignUpForm {
+  background-color: #282828;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  &__container {
+    width: 55%;
+    &-paragraph {
+      font-family: "Merriweather-Regular";
+      font-size: 20px;
+      color: #fff;
+      text-align: left;
+      margin-bottom: 75px;
+    }
+    &-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      &-error {
+        font-family: "Merriweather-Regular";
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        text-align: right;
+        margin-top: -30px;
+        width: 28.2vw;
+      }
+      &-fields {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      &-email {
+        &-input {
+          width: 26vw;
+          padding: 12px 20px;
+          font-family: "Merriweather-Italic";
+          font-size: 16px;
+          margin-right: 0.5vw;
+        }
+        .active {
+          border: 2px solid #d02035;
+        }
+      }
+      &-yourInterest {
+        select {
+          font-family: "Merriweather-Italic";
+          font-size: 16px;
+          width: 26vw;
+          padding: 12px 20px;
+        }
+        &-placeholderFont {
+          font-family: "Merriweather-Italic";
+          font-size: 16px;
+          color: "#797979";
+        }
+      }
+    }
+    &-submit {
+      &-button {
+        font-family: "Merriweather-Bold";
+        font-size: 20px;
+        width: 55vw;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 2px;
+        margin-top: 30px;
+        background-color: #d02035;
+        color: white;
+      }
+      &-button:hover {
+        background-color: #7e1420;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+      }
+    }
+  }
+}

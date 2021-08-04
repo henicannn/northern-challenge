@@ -1,0 +1,16 @@
+.FormHeading {
+  h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 65px;
+    color: #fff;
+    text-align: left;
+  }
+  &-bar {
+    &-redBar {
+      width: 15vw;
+      height: 1vh;
+      background-color: #d02035;
+      margin: 0px 0px 70px 0px;
+    }
+  }
+}
