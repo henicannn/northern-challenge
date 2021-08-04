@@ -5,7 +5,7 @@ import "./ThankYouPage.scss";
 function ThankYouPage() {
   return (
     <div className="ThankYouPage">
-      <FormHeading />
+      <FormHeading className="ThankYouPage-mainHeading"/>
       <div className="ThankYouPage-heading">
         <h1>Thanks for your interest!</h1>
       </div>

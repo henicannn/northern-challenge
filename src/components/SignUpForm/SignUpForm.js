@@ -57,7 +57,7 @@ function SignUpForm() {
               <div className="SignUpForm__container-form-fields">
                 <div className="SignUpForm__container-form-email">
                   {showError ? (
-                    <div className="SignUpForm__container-form-error">
+                    <div className="SignUpForm__container-form-email-error">
                       <p>Please enter a valid email address.</p>
                     </div>
                   ) : null}
